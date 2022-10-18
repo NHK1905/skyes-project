@@ -12,6 +12,7 @@
 html, body {
   font-size: 100%;
   position: relative;
+  height: 100%;
 }
 
 body {
@@ -23,7 +24,8 @@ body {
   overflow: hidden;
 }
 
-ul,li {
+ul,
+li {
   list-style-type: none;
 }
 
