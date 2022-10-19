@@ -2,9 +2,9 @@
 @use "sass:math";
 
 .champion-card {
-    $width: 450px;
+    $width: 325px;
     width: $width;
-    height: #{math.div($width * 9, 16)}px;
+    height: #{math.div($width * 9, 6)};
     position: relative;
     pointer-events: none;
 
