@@ -8,13 +8,12 @@ import hoverEffect from 'hover-effect'
 
 import {
     bg1,
-    champAshe,
-    champAhri,
-    champGaren,
+    skyesModal1,
+    skyesModal2,
     distortion
 } from '../../../assets/images'
 
-const champImgs = [champAshe, champAhri, champGaren]
+const champImgs = [skyesModal1, skyesModal2]
 
 const Welcome = props => {
     useEffect(() => {
@@ -67,11 +66,16 @@ const Welcome = props => {
                         <h2 className="main-color">Skyes Ch</h2>
                     </div>
                     <div className="description m-t-4">
-                        Team up with friends and test your skills in 5v5 MOBA combat. All the high-skill competition you crave, designed especially for mobile and console with revamped controls and streamlined matches.Explore the living universe of Runeterra through lore, comics, games, and more. Then dive into the community of gamers, cosplayers, musicians, and content creators who are waiting for you to join them.
+                        <p>
+                            Skyes, một thần chết mê chơi điện tử và thích kết bạn. Một shinigami hiện đang công tác ở nhân giới.
+                        </p>
+                        <p className='m-t-2'>
+                            Do mê chơi điện tử kiếp đỏ đen nên mình lỡ "cầm cố" thẻ công nhân viên chức, tin này mà lộ ra sếp vặn cổ mất, nên Skyes quyết định khởi nghiệp làm VTuber để chuộc lại trước khi cuối năm về địa ngục báo cáo.
+                        </p>
                     </div>
                     <div className="btns m-t-4">
-                        <Button className="btn-main">PLAY NOW</Button>
-                        <Button className="btn-second">GET STARTED</Button>
+                        <Button className="btn-main">ABOUT SKYES</Button>
+                        <Button className="btn-second">PORTFOLIO</Button>
                     </div>
                 </div>
             </div>

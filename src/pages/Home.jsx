@@ -11,9 +11,11 @@ import SwiperCore, {
 
 import {
     Welcome,
-    Champion
+    Champion,
+    ChampionDetail
 } from '../components/home-section'
 
+import { championsData } from '../assets/dummy'
 
 SwiperCore.use([Mousewheel, Pagination, EffectFade])
 
@@ -38,6 +40,13 @@ const Home = () => {
                     {({ isActive }) => <Champion isActive={isActive}/>}
                 </SwiperSlide>
             </Swiper>
+            {
+                championsData.map((item, index) => <ChampionDetail
+                    key={index}
+                    item={item}
+                    id={index}
+                />)
+            }
         </>
     )
 }

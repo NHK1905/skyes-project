@@ -6,6 +6,8 @@ import bg1 from './images/bg-1.jpg'
 import bg2 from './images/bg-2.jpg'
 import bg3 from './images/bg-3.jpg'
 import distortion from './images/distortion.png'
+import skyesModal1 from './images/skyesModal1.png'
+import skyesModal2 from './images/skyesModal2.png'
 
 import cardAshe from './images/ashe_card.png'
 import cardAhri from './images/ahri_card.png'
@@ -37,6 +39,8 @@ export {
     champAhri,
     champAshe,
     champGaren,
+    skyesModal1,
+    skyesModal2,
     bg1,
     bg2,
     bg3,
